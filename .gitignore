@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.idea/workspace.xml
+.idea/.author_contents_storage_db
+*.log
+trailer/frames/
+trailer/t*/
+game/trailer/frames/
+game/trailer/t*/
+game/tools/shots/
+game/tools/sheet.jpg
+game/trailer/*.wav
+game/trailer/events*.json
+game/trailer/timeline.json
+.idea/.author_contents_storage_db*
