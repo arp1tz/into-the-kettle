@@ -4,6 +4,8 @@
 
 A fast isometric **action roguelike** for the browser (Hades / Risk of Rain feel), built on top of the JetBrains Academy course project *Build a Game with an AI Coding Agent*. Tode the frog fights down through an Armabee hive: three zones, two mini-bosses whose moves you can steal, and a final boss brewed from every blessing you turned down.
 
+▶️ **Play the live demo: https://arp1tz.github.io/into-the-kettle/** (desktop browser, keyboard + mouse)
+
 🎬 Trailer (19.8 s): [`game/trailer/into-the-kettle-trailer.mp4`](game/trailer/into-the-kettle-trailer.mp4)
 
 ## Build and run

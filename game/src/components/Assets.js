@@ -7,7 +7,7 @@ const cache = {};
 export async function loadModels(names = ['tode', 'enemy', 'small_house']) {
   const loader = new GLTFLoader();
   await Promise.all(names.map((n) => new Promise((res) => {
-    loader.load(`/models/${n}.glb`, (g) => { cache[n] = g; res(); }, undefined, () => { console.warn('model failed', n); res(); });
+    loader.load(`${import.meta.env.BASE_URL}models/${n}.glb`, (g) => { cache[n] = g; res(); }, undefined, () => { console.warn('model failed', n); res(); });
   })));
 }
 export function hasModel(n) { return !!cache[n]; }
